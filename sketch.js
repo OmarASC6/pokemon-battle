@@ -19,8 +19,6 @@ function draw(){
         circle (150,325,100)
         circle (1050,325,100)
     // Health Bars
-    let widthLeft = 250
-    let widthRight = 250
         fill (0)
             leftRectGray = rect(0,0,250,35) // Grey Rect Background Left
         fill (42,217,120) 
@@ -32,10 +30,12 @@ function draw(){
             rightRect = rect (950,0,widthRight,35) // Green Rect Above Right 
 
 }
+let widthLeft = 250
+let widthRight = 250
           function mouseClicked(){
               // left box click
              if (mouseX>=0 && mouseX<=50 && mouseY>=300 && mouseY<=350){
-                widthRight = 25 
+                widthRight =  25 
             //  redR =255
             //  greenR =0
             //  blueR =0
